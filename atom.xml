@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-09T09:25:31.644Z</updated>
+  <updated>2019-07-09T12:46:39.969Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,20 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>&#39;在GitHub上建图床&#39;</title>
+    <title></title>
     <link href="http://yoursite.com/2019/07/09/%E5%9C%A8GitHub%E4%B8%8A%E5%BB%BA%E5%9B%BE%E5%BA%8A/"/>
     <id>http://yoursite.com/2019/07/09/在GitHub上建图床/</id>
-    <published>2019-07-09T09:25:31.000Z</published>
-    <updated>2019-07-09T09:25:31.644Z</updated>
+    <published>2019-07-09T09:25:31.643Z</published>
+    <updated>2019-07-09T12:46:39.969Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="最近用hexo整了个博客，我现在的感受就是这也太tm折腾了。"><a href="#最近用hexo整了个博客，我现在的感受就是这也太tm折腾了。" class="headerlink" title="最近用hexo整了个博客，我现在的感受就是这也太tm折腾了。"></a>最近用hexo整了个博客，我现在的感受就是这也太tm折腾了。</h5><p>用markdown写博客少不了插入图片，看似简单的操作其实可折腾了！本地的图片要部署到服务器上必须要使用图床才能实现，网上各种推荐腾讯云、七牛云来做图床，我都尝试了一下，发现要充钱才行，果断另寻她法.（发出了穷逼的声音 qaq）</p><h3 id="现在来介绍一下如何直接在github上建图床"><a href="#现在来介绍一下如何直接在github上建图床" class="headerlink" title="现在来介绍一下如何直接在github上建图床"></a>现在来介绍一下如何直接在github上建图床</h3><p>GitHub可谓是良心大大滴！免费，没有容量限制，只是单个文件不能超过100M，有50M的文件，就会警告了。这对搭个博客用的图床来说完全足够了。不多bb，进入上手环节：</p><ol><li><p>进入repositories后new一个存储库命名为：你的github用户名.github.iogithub，点击上方的Setting并往下拉，去到GitHub Pages设置项，把Source项设定为master branch</p><p>这些都是搭博客的基本操作，已经建了这个仓库的，可以在这个仓库上上传文件。比如<br><img src="https://img-blog.csdnimg.cn/20190709203332774.png" alt="在这里插入图片描述"></p></li></ol><ol start="2"><li><p>图片已经上传，这个时候其实是可以直接通过图片链接访问这个图片的</p><p>图片链接的格式：<a href="https://github用户名.github.io/存储库名/你的图片名" target="_blank" rel="noopener">https://github用户名.github.io/存储库名/你的图片名</a>    （加后缀名）<br><img src="https://img-blog.csdnimg.cn/20190709203404689.png" alt="在这里插入图片描述"></p></li></ol><ol start="3"><li>在markdown插入图片链接，就可以显示该图片了<img src="https://img-blog.csdnimg.cn/20190709203517666.png" alt="在这里插入图片描述"></li></ol><h3 id="以上是图床的基本原理！！！"><a href="#以上是图床的基本原理！！！" class="headerlink" title="以上是图床的基本原理！！！"></a>以上是图床的基本原理！！！</h3><p>博客的项目文件在每次部署的时候都会更新，这样不利于对上传图片的保存。要如何解决这个问题呢？</p><ol><li><p>到博客根目录下 查看_config.yml文件 查找 post_asset_folder 字段确定post_asset_folder 设置为true </p><p>post_asset_folder:true</p><p>设置 post_asset_folder  参数后，在建立文件时，Hexo 会自动建立一个与文章同名的文件夹，可以把与该文章相关的所有资源都放到此文件夹内，这样就可以更方便的使用资源。像这样<br><img src="https://img-blog.csdnimg.cn/20190709203604714.png" alt="在这里插入图片描述"></p></li><li><p>把要用的图片都放在这个文件夹下，下次 hexo d 部署博客的时候可以看到<img src="https://img-blog.csdnimg.cn/20190709203702409.png" alt="在这里插入图片描述"></p><p>要用的图片文件都在github的仓库上了，这时用前面介绍的原理，记下文件的路径名在编写markdown的时候添加图片链接即可</p><p>图片链接的格式：<a href="https://github用户名.github.io/存储库名/你的图片名" target="_blank" rel="noopener">https://github用户名.github.io/存储库名/你的图片名</a>    （加后缀名）</p><p>比如我上面的皮卡丘动图  2.gif  的链接就是：    <a href="https://qwq1082.github.io/2019/07/09/pikachu/2.gif" target="_blank" rel="noopener">https://qwq1082.github.io/2019/07/09/pikachu/2.gif</a></p><p>写好markdown之后再次部署即可<br><img src="https://img-blog.csdnimg.cn/20190709203803699.png" alt="在这里插入图片描述"></p><p>欢迎访问呀   <a href="https://qwq1082.github.io/2019/07/09/pikachu/" target="_blank" rel="noopener">https://qwq1082.github.io/2019/07/09/pikachu/</a></p></li></ol>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;h5 id=&quot;最近用hexo整了个博客，我现在的感受就是这也太tm折腾了。&quot;&gt;&lt;a href=&quot;#最近用hexo整了个博客，我现在的感受就是这也太tm折腾了。&quot; class=&quot;headerlink&quot; title=&quot;最近用hexo整了个博客，我现在的感受就是这也太tm折腾了。&quot;&gt;
+      
     
     </summary>
     
@@ -35,7 +42,7 @@
     <link href="http://yoursite.com/2019/07/09/pikachu/"/>
     <id>http://yoursite.com/2019/07/09/pikachu/</id>
     <published>2019-07-09T03:12:23.000Z</published>
-    <updated>2019-07-09T09:52:06.939Z</updated>
+    <updated>2019-07-09T09:54:44.493Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://qwq1082.github.io/2019/07/09/pikachu/2.gif" alt></p><p>在GitHub上建图床</p>]]></content>
     
