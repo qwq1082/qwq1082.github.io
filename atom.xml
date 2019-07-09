@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-09T09:17:07.179Z</updated>
+  <updated>2019-07-09T09:25:31.644Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,19 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>&#39;在GitHub上建图床&#39;</title>
+    <link href="http://yoursite.com/2019/07/09/%E5%9C%A8GitHub%E4%B8%8A%E5%BB%BA%E5%9B%BE%E5%BA%8A/"/>
+    <id>http://yoursite.com/2019/07/09/在GitHub上建图床/</id>
+    <published>2019-07-09T09:25:31.000Z</published>
+    <updated>2019-07-09T09:25:31.644Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>&#39;pikachu&#39;</title>
     <link href="http://yoursite.com/2019/07/09/pikachu/"/>
     <id>http://yoursite.com/2019/07/09/pikachu/</id>
     <published>2019-07-09T03:12:23.000Z</published>
-    <updated>2019-07-09T09:17:07.179Z</updated>
+    <updated>2019-07-09T09:35:53.874Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://qwq1082.github.io/2.gif" alt></p>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://qwq1082.github.io/2019/07/09/pikachu/2.gif" alt></p><p>在GitHub上建图床</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;img src=&quot;https://qwq1082.github.io/2.gif&quot; alt&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&quot;https://qwq1082.github.io/2019/07/09/pikachu/2.gif&quot; alt&gt;&lt;/p&gt;
+&lt;p&gt;在GitHub上建图床&lt;/p&gt;
 
       
     
@@ -64,30 +79,6 @@
       <category term="MachineLearning" scheme="http://yoursite.com/tags/MachineLearning/"/>
     
       <category term="LR" scheme="http://yoursite.com/tags/LR/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hiahiahia~</title>
-    <link href="http://yoursite.com/2019/07/02/hiahiahia/"/>
-    <id>http://yoursite.com/2019/07/02/hiahiahia/</id>
-    <published>2019-07-02T06:00:09.000Z</published>
-    <updated>2019-07-02T06:00:54.225Z</updated>
-    
-    <content type="html"><![CDATA[<p>哈哈哈哈哈</p><p>哈哈哈哈哈</p><p>哈哈哈哈哈</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;哈哈哈哈哈&lt;/p&gt;
-&lt;p&gt;哈哈哈哈哈&lt;/p&gt;
-&lt;p&gt;哈哈哈哈哈&lt;/p&gt;
-
-      
-    
-    </summary>
-    
     
   </entry>
   
