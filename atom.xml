@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-10T10:37:30.808Z</updated>
+  <updated>2019-07-18T05:18:03.953Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>什么是 Sparse Reward？</title>
+    <link href="http://yoursite.com/2019/07/18/%E4%BB%80%E4%B9%88%E6%98%AF%20Sparse%20Reward%EF%BC%9F/"/>
+    <id>http://yoursite.com/2019/07/18/什么是 Sparse Reward？/</id>
+    <published>2019-07-18T03:50:59.000Z</published>
+    <updated>2019-07-18T05:18:03.953Z</updated>
+    
+    <content type="html"><![CDATA[<p>​        人们学习的过程中，常常无法及时获得回报。就像家长让小朋友写作业，小朋友可能觉得这个是负面的反馈而不去写作业（做作业让我觉得很痛苦qwq），而没有意识到以后会获得的巨大回报：写完作业后成绩提高，考上好大学，成为高富帅，从此走向巅峰赢取白富美…</p><h3 id="这个一开始的暂时的小的reward-就叫-Sparse-Reward"><a href="#这个一开始的暂时的小的reward-就叫-Sparse-Reward" class="headerlink" title="这个一开始的暂时的小的reward  就叫  Sparse Reward"></a>这个一开始的暂时的小的reward  就叫  Sparse Reward</h3><h2 id="如何让agent在Sparse-Reward-中拥有更好的学习表现？"><a href="#如何让agent在Sparse-Reward-中拥有更好的学习表现？" class="headerlink" title="如何让agent在Sparse Reward 中拥有更好的学习表现？"></a>如何让agent在Sparse Reward 中拥有更好的学习表现？</h2><h4 id="1-“写完作业就给糖吃”"><a href="#1-“写完作业就给糖吃”" class="headerlink" title="1.“写完作业就给糖吃”"></a>1.“写完作业就给糖吃”</h4><p>​    把关键的一些动作强制地定义为正的reward，这样agent就不会反感这一学习行为，从而一步步走到最大的reward</p><p>![1563422881839](<a href="https://qwq1082.github.io/2019/07/18/什么是" target="_blank" rel="noopener">https://qwq1082.github.io/2019/07/18/什么是</a> Sparse Reward？/1563422881839.png)</p><h4 id="2-“兴趣是最好的老师-”-Curiosity-Module"><a href="#2-“兴趣是最好的老师-”-Curiosity-Module" class="headerlink" title="2.“兴趣是最好的老师 ”     Curiosity Module"></a>2.“兴趣是最好的老师 ”     Curiosity Module</h4><p>​    尽管是一些风吹草动，很难让agent得到一些有用的反馈。这时让agent自己预测这个动作将来的reward，这样也能达到最终的效果。让agent预测做一个动作的未来的reward，从而使agent有兴趣的学习。</p><p>​    ![1563426283604](<a href="https://qwq1082.github.io/2019/07/18/什么是" target="_blank" rel="noopener">https://qwq1082.github.io/2019/07/18/什么是</a> Sparse Reward？/1563426283604.png)</p><h4 id="3-“制定学习计划”-Curriculum-Learning"><a href="#3-“制定学习计划”-Curriculum-Learning" class="headerlink" title="3.“制定学习计划”      Curriculum    Learning"></a>3.“制定学习计划”      Curriculum    Learning</h4><p>​    人来设定agent的学习顺序，使agent以从易到难的顺序学习</p><p>​    ![1563426300100](<a href="https://qwq1082.github.io/2019/07/18/什么是" target="_blank" rel="noopener">https://qwq1082.github.io/2019/07/18/什么是</a> Sparse Reward？/1563426300100.png)</p><p>![1563426313714](<a href="https://qwq1082.github.io/2019/07/18/什么是" target="_blank" rel="noopener">https://qwq1082.github.io/2019/07/18/什么是</a> Sparse Reward？/1563426313714.png)</p><h4 id="4-阶层式强化学习-Hierarchical-RL"><a href="#4-阶层式强化学习-Hierarchical-RL" class="headerlink" title="4.阶层式强化学习    Hierarchical RL"></a>4.阶层式强化学习    Hierarchical RL</h4><p>​    由上层agent提出愿景，由最下层agent来执行动作</p><p>![1563426561160](<a href="https://qwq1082.github.io/2019/07/18/什么是" target="_blank" rel="noopener">https://qwq1082.github.io/2019/07/18/什么是</a> Sparse Reward？/1563426561160.png)</p><p>![1563426796100](<a href="https://qwq1082.github.io/2019/07/18/什么是" target="_blank" rel="noopener">https://qwq1082.github.io/2019/07/18/什么是</a> Sparse Reward？/1563426796100.png)</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;​        人们学习的过程中，常常无法及时获得回报。就像家长让小朋友写作业，小朋友可能觉得这个是负面的反馈而不去写作业（做作业让我觉得很痛苦qwq），而没有意识到以后会获得的巨大回报：写完作业后成绩提高，考上好大学，成为高富帅，从此走向巅峰赢取白富美…&lt;/p&gt;
+&lt;h3
+      
+    
+    </summary>
+    
+      <category term="RL" scheme="http://yoursite.com/categories/RL/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>西瓜书习题3.4(交叉验证法)</title>
